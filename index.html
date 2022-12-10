@@ -18,8 +18,11 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body class="text-center" style="color: rgb(255,255,255);/*background: rgb(0,0,0);*/"><img src="assets/img/iCorp%20remove.bg.png" width="395" height="210">
-    <div> <div class="container">DEMO TEXT</div>
+<body class="text-center" style="color: rgb(255,255,255);/*background: rgb(0,0,0);*/">
+    <div class="d-block" style="height: 60px;"></div><img src="assets/img/iCorp%20remove.bg.png" width="348" height="197">
+    <div>
+        <div class="col-md-12" style="height: 60px;">
+            <div> <div class="container">DEMO TEXT</div>
     <script>let container = document.querySelector(".container");
 let timeNow = new Date().getHours();
 let timeNos = new Date().getMinutes();
@@ -30,13 +33,15 @@ let greeting =
     ? "Good Afternoon,"
     : "Good evening,";
 container.innerHTML = `<h1 class="forgetmenot">${timeNow}:${timeNos}</h1>`;</script></div>
+        </div>
+    </div>
     <div class="container">
-        <div class="row text-center d-lg-flex d-xl-flex align-items-lg-center align-items-xl-center" style="color: rgb(0,0,0);">
+        <div class="row text-center d-lg-flex d-xl-flex align-items-lg-center align-items-xl-center" style="color: rgb(0,0,0);padding-top: 22px;">
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">iCorp Home</h4>
-                        <h6 class="text-muted card-subtitle mb-2">Homepage of iCorp</h6><a class="btn btn-primary" role="button" href="icorp.cf">Open Homepage</a>
+                        <h6 class="text-muted card-subtitle mb-2">Homepage of iCorp</h6><a class="btn btn-primary" role="button" href="https://home.icorp.cf">Open Homepage</a>
                     </div>
                 </div>
             </div>
