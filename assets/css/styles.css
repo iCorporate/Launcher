@@ -1,0 +1,37 @@
+body {
+  background-image: url("../../assets/img/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-5120x2880-1432.jpg");
+}
+
+.card {
+  margin-bottom: 50px;
+  transition: transform .2s;
+}
+
+.card:hover {
+  transform: scale(1.15);
+}
+
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.thetimern {
+  font-family: arial;
+  font-size: 25px;
+}
+
+forgetmenot {
+  font-size: 50px;
+}
+
